@@ -15,7 +15,7 @@ import com.android.provaandroid2b.model.Ordenha;
 import java.util.List;
 
 public class RelatorioActivity extends AppCompatActivity {
-    private ListView lvOrdenha;
+    private ListView lvRelatorio;
 
     private ArrayAdapter<Ordenha> adapterOrdenha;
 
@@ -26,15 +26,15 @@ public class RelatorioActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        lvOrdenha = findViewById(R.id.lvOrdenha);
+        lvRelatorio = findViewById(R.id.lvRelatorio);
         loadList();
 
     }
 
     public void loadList() {
         List<Ordenha> ordenhaList = Ordenha.listAll(Ordenha.class);
-        adapterOrdenha = new ArrayAdapter<>(RelatorioActivity.this, R.layout.item_ordenha, ordenhaList);
-        lvOrdenha.setAdapter(adapterOrdenha);
+        adapterOrdenha = new ArrayAdapter<>(RelatorioActivity.this, R.layout.support_simple_spinner_dropdown_item, ordenhaList);
+        lvRelatorio.setAdapter(adapterOrdenha);
 
     }
 

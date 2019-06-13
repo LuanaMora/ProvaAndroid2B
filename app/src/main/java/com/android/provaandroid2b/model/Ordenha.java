@@ -68,6 +68,6 @@ public class Ordenha extends SugarRecord implements Serializable {
 
     @Override
     public String toString() {
-        return identificador + " - "  + qtdLitros + " - " + data ;
+        return identificador + " - " + qtdLitros + " - " + data ;
     }
 }
