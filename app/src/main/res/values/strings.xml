@@ -7,10 +7,23 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
+    <string name="menu_relatorio">Relatorio</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+
+    <string name="lbIdentificador">Identificador</string>
+    <string name="lbMatriz">Matriz Leiteira</string>
+    <string name="lbQtdLitros">Quantidade Litros</string>
+    <string name="lbDt">Data</string>
+    <string name="lbHr">Hora</string>
+    <string name="lbSalvar">Salvar</string>
+    <string name="lbCancelar">Cancelar</string>
+    <string name="lbAtualizar">Atualizar</string>
+    <string name="title_activity_relatorio">RelatorioActivity</string>
+    <string name="lbRelatorio">Relatório</string>
+    <string name="title_activity_matriz_leiteira">MatrizLeiteiraActivity</string>
+
 </resources>
